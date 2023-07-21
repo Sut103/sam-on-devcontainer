@@ -9,4 +9,6 @@
 
 	"runArgs": ["--add-host=host.docker.internal:host-gateway"],
 
+	"workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind,consistency=cached",
+	"workspaceFolder": "${localWorkspaceFolder}"
 }
